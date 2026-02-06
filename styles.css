@@ -1,0 +1,20 @@
+/* CSS BY John Villaverde */
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* CSS RESET */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ROOT VARIABLES */
+:root {
+  --blue: #5f7bd9;
+  --dark-blue: #4b57b6;
+  --yellow: #f4c95d;
+  --pink: #e96a8d;
+  --white: #ffffff;
+  --gray: #333333;
+}
