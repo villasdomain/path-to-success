@@ -20,7 +20,7 @@
 }
 /* GLOBAL STYLES (mobile first/small) */
 body {
-  font-family: 'Inter', sans-serif, Kavoon;
+  font-family: 'Inter', 'Kavoon'sans-serif;
   background-color: var(--blue);
   color: var(--gray);
   max-width: 450px;
