@@ -1,6 +1,6 @@
 /* CSS BY John Villaverde */
 /* IMPORTED FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 /* CSS RESET */
 *,
 *::before,
@@ -17,4 +17,83 @@
   --pink: #e96a8d;
   --white: #ffffff;
   --gray: #333333;
+}
+/* GLOBAL STYLES (mobile first/small) */
+body {
+  font-family: 'Inter', sans-serif, Kavoon;
+  background-color: var(--blue);
+  color: var(--gray);
+  max-width: 450px;
+  margin: 0 auto;
+}
+header {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  text-align: center;
+  padding: 1.5rem;
+}
+nav {
+  background-color: var(--yellow);
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav li {
+  margin: 0.5rem 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--dark-blue);
+}
+
+main section {
+  padding: 1.5rem;
+}
+article {
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+article img {
+  width: 40px;
+  margin-bottom: 0.5rem;
+}
+
+h2, h3, h4 {
+  margin-bottom: 0.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--white);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--pink);
+  color: var(--white);
+  padding: 0.75rem 1.25rem;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  text-align: center;
+  padding: 1rem;
 }
