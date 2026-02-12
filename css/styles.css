@@ -26,8 +26,6 @@
 body {
   font-family: "Inter", sans-serif;
   background-color: var(--blue);
-  background-color:#4b57b6
-  padding: 2rem 1.5rem;
   color: var(--gray);
 }
 
@@ -120,7 +118,7 @@ h3 {
 }
 
 h4 {
-  color: var(--dark-blue)
+  color: var(--dark-blue);
   font-weight: 800;
   margin-bottom: 0.5rem;
 }
@@ -296,4 +294,4 @@ footer a {
   color: var(--white);
   text-decoration: underline;
 }
-
+css/styles.css
